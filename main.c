@@ -4,8 +4,8 @@ int main(void) {
     
     double d;           
     double result;      
-    scanf("%f",&d); 
+    scanf("%lf",&d); 
     result = d*1.08;
-    printf("%0.2f\n" ,  result);           
+    printf("%0.2f" ,  result);           
     return 0;
 }
